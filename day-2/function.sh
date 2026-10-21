@@ -3,10 +3,10 @@
 # this is for function, lets start creating and learning
 
 
-function uttam() {
+function Check_loyality() {
 
-read -p "Enter your name " bandi
-read -p "how much do you know " pyar
+read -p " $1 first looks first time to whome? " bandi
+read -p " $1 much percentage he loves " pyar
 
 if [[ $bandi == "Pratiksha" ]];
 
@@ -18,12 +18,12 @@ then
 	echo "$1 is very loyal"
 
 else 
-	echo "$1 is very harami & not loving"
+	echo "$1 is very heartless & not loving"
 
 fi
 }
 
 #this is function call
 
-uttam pooja
+check_loyality Abhishek
 

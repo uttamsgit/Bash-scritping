@@ -4,16 +4,16 @@
 this is just a learning and info
 disclamer
 
-read -p "Enter the name : " bandi
+read -p "Aman ne kisko dekha : " bandi
 read -p "pyar ka percent : " pyar
 if [[ $bandi == "pratiksha" ]];
 then
-	echo "uttam has true love"
+	echo "Aman has true love"
 elif [[ $pyar -ge 90 ]];
 then
-	echo "uttam has true love"
+	echo "Aman has true love"
 
 else
-	echo "its a fake love"
+	echo "Aman just pretending but its a fake love"
 
 fi
